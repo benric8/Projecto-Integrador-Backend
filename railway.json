@@ -1,0 +1,7 @@
+{
+  "build": {
+    "builder": "nixpacks",
+    "buildCommand": "./mvnw clean package -DskipTests"
+  },
+  "start": "java -jar target/clave_compas-0.0.1-SNAPSHOT.jar"
+}
